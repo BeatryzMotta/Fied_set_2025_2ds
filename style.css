@@ -1,12 +1,238 @@
 .sexo{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 500px;
     position: absolute;
     left: 50%;
-    top: 300px;
+    top: 200px;
 }
 .pais{
     position: absolute;
-    left: 15%;
-    top: 200px;
+    left: 13%;
+    top: 210px;
+}
+.uf{
+    position: absolute;
+    left: 25%;
+    top: 210px;
+}
+.cid{
+    position: absolute;
+    left: 35%;
+    top: 210px;
+}
+.cpf{
+    position: absolute;
+    left: 300px;
+    top: 135px;
+}
+.np{
+    position: absolute;
+    left: 40%;
+    top: 135px;
+}
+.oe{
+    position: absolute;
+    left: 18%;
+    top: 290px;
+}
+.uff{
+    position: absolute;
+    left: 34%;
+top: 290px;
+}
+.d{
+    position: absolute;
+    left: 45%;
+    top: 290px;
+}
+.nm{
+    position: absolute;
+    left: 18%;
+    top: 367px;
+}
+.log{
+    position: absolute;
+    left: 17%;
+    top: 515px;
+}
+.edn{
+    position: absolute;
+    left: 25%;
+    top: 515px;
+}
+.pie{
+    position: absolute;
+    left: 40%;
+    top: 515px;
+}
+.ufe{
+    position: absolute;
+    left: 50%;
+    top: 515px;
+}
+.cee{
+    position: absolute;
+    left: 60%;
+    top: 515px;
+}
+.ciee{
+    position: absolute;
+    left: 75%;
+    top: 515px;
+}
+.cpe{
+    position: absolute;
+    left: 17%;
+    top: 555px;
+}
+.ddd{
+    position: absolute;
+    left: 31%;
+    top: 555px;
+}
+.tl{
+    position: absolute;
+    left: 45%;
+    top: 555px;
+}
+.ra{
+    position: absolute;
+    left: 60%;
+    top: 555px;
+}
+.fax{
+    position: absolute;
+    left: 75%;
+    top: 555px;
+}
+.hi{
+    position: absolute;
+    left: 17%;
+    top: 595px;
+}
+.er{
+    position: absolute;
+    left: 12%;
+    top: 670px;
+}
+.pr{
+    position: absolute;
+    left: 28%;
+    top: 670px;
+}
+.ufr{
+    position: absolute;
+    left: 38%;
+    top: 670px;
+}
+.cer{
+    position: absolute;
+    left: 48%;
+    top: 670px;
+}
+.cir{
+    position: absolute;
+    left: 62%;
+    top: 670px;
+}
+.bar{
+    position: absolute;
+    left: 76%;
+    top: 670px;
+}
+.cpre{
+    position: absolute;
+    left: 18%;
+    top: 710px;
+}
+.dre{
+    position: absolute;
+    left: 33%;
+    top: 710px;
+}
+.faxre{
+    position: absolute;
+    left: 48%;
+    top: 710px;
+}
+.ere{
+    position: absolute;
+    left: 63%;
+    top: 710px;
+}
+.hire{
+    position: absolute;
+    left: 78%;
+    top: 710px;
+}
+.ncf{
+    position: absolute;
+    left: 17%;
+    top: 1030px;
+}
+.sc{
+    position: absolute;
+    left: 30%;
+    top: 1030px;
+}
+.pic{
+    position: absolute;
+    left: 50%;
+    top: 1030px;
+}
+.comc{
+    position: absolute;
+    left: 63%;
+    top: 1045px;
+
+}
+.tm{
+    position: absolute;
+    left: 80%;
+    top: 1030px;
+}
+.tte{
+    position: absolute;
+    left: 20%;
+    top: 1070px;
+}
+.ncore{
+    position: absolute;
+    left: 35%;
+    top: 1070px;
+}
+.bolsa{
+    position: absolute;
+    left: 50%;
+    top: 1070px;
+}
+.efre{
+    position: absolute;
+    left: 60%;
+    top: 1070px;
+}
+.aeni{
+    position: absolute;
+    left: 18%;
+    top: 1150px;
+}
+.vip{
+    position: absolute;
+    left: 37%;
+    top: 1150px;
+}
+.if{
+    position: absolute;
+    left: 53%;
+    top: 1130px;
+}
+.tdv{
+    position: absolute;
+    left: 65%;
+    top: 1150px;
+}
+.chs{
+    position: absolute;
+    left: 75%;
+    top: 1150px;
 }
