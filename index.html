@@ -16,12 +16,18 @@
                         <legend><font color="blue" size="4">Identificação</font></legend>
                         Nome Completo: <br>
                         <input type="text"id="nome"size="200">
+                        <div class="nac">
                         Nacionalidade: <br>
                         <input type="radio" name="br" id="br"> Brasileiro <input type="radio" name="es" id="es"> Estrangeiro<br>
+                    </div>
+                    <div class="cpf">
                         CPF: <br>
                         <input type="text" name="cpf" id="cpf"> <br>
+                    </div>
+                    <div class="np" >
                         Número de Passaporte: <br>
                         <input type="text" name="pass" id="pass"> 
+                    </div>
                     </fieldset>
                     <fieldset>
                         <legend><font color="blue" size="4">Dados de Nascimento</font></legend>
@@ -29,6 +35,7 @@
                        
                        
                         <input type="date" name="data" id="data"> <br>
+
                         <div class="pais">
                         País: <br>
                        <select name="país" id="país">
@@ -41,6 +48,7 @@
                         <option value="Colômbia">Colômbia</option>
                        </select> <br>
                     </div>
+                    <div class="uf">
                       UF: <br>
                        <select name="uf" id="uf">
                         <option value="rio de janeiro">Rio de Janeiro</option>
@@ -51,10 +59,14 @@
                         <option value="Minas gerais">Minas Gerais</option>
                         <option value="Brasilia">Brasília</option>
                        </select> <br>
+                    </div>
+
+                    <div class="cid">
                        Cidade: <br>
                        <input type="text" name="cid" id="cid"> <br>
-                   
-                  </fieldset>
+                    </div>
+                   </fieldset>
+
                   <div class="sexo">
                     <fieldset>
                         <legend> <font  color="blue" size="4">Sexo</font>  </legend>
@@ -66,8 +78,11 @@
                         <legend> <font color="blue" size="4">Identidade</font></legend>
                         Número: <br>
                         <input type="text" name="nu" id="nu"> <br>
+                        <div class="oe">
                         Órgão Emissor: <br>
                         <input type="text" name="oe" id="oe"> <br>
+                    </div>
+                    <div class="uff">
                          UF: <br>
                        <select name="uf" id="uf">
                         <option value="rio de janeiro">Rio de Janeiro</option>
@@ -78,23 +93,31 @@
                         <option value="Minas gerais">Minas Gerais</option>
                         <option value="Brasilia">Brasília</option>
                        </select> <br>
+                    </div>
+                    <div class="d">
                        Data: <br>
                        <input type="date" name="dat" id="dat"> <br>
+                    </div>
                     </fieldset>
                     <fieldset>
                         <legend>  <font  color="blue" size="4">Filiação</font> </legend>
                         Nome do Pai: <br>
                         <input type="text" name="p" id="p"> <br>
+                        <div class="nm">
                         Nome da Mãe: <br>
                         <input type="text" name="m" id="m"> <br>
+                    </div>
                     </fieldset>
                 </fieldset>
+
                 <fieldset>
                     <legend><font size="7">Endereço</font></legend>
                     <fieldset>
                         <legend> <font color="blue" size="4">Endereço Profissional</font>  </legend>
                         Instituição / Empresa: <br>
                         <input type="text" name="ie" id="ie"> <br>
+
+                        <div class="log">
                         Logradouro: <br>
                         <select name="log" id="log">
                             <option value="Avenida">Avenida</option>
@@ -105,8 +128,14 @@
                             <option value="Beco">Beco</option>
                             <option value="Passagem">Passagem</option>
                         </select> <br>
+                    </div>
+
+                    <div class="edn">
                         Endereço: <br>
                         <input type="text" name="en" id="en"> <br>
+                    </div>
+
+                    <div class="pie">
                          País: <br>
                        <select name="país" id="país">
                         <option value="Brasil">Brasil</option>
@@ -117,6 +146,9 @@
                         <option value="Canada">Canadá</option>
                         <option value="Colômbia">Colômbia</option>
                        </select> <br>
+                    </div>
+
+                    <div class="ufe">
                          UF: <br>
                        <select name="uf" id="uf">
                         <option value="rio de janeiro">Rio de Janeiro</option>
@@ -127,27 +159,55 @@
                         <option value="Minas gerais">Minas Gerais</option>
                         <option value="Brasilia">Brasília</option>
                        </select> <br>
+                    </div>
+
+                    <div class="cee">
                        CEP: <br>
                        <input type="text" name="cep" id="cep"> <br>
+                    </div>
+
+                    <div class="ciee">
                        Cidade: <br>
                        <input type="text" name="cid" id="cid"> <br>
+                    </div>
+
                        Bairro: <br>
                        <input type="text" name="ba" id="ba"> <br>
+
+                       <div class="cpe">
                        Caixa Postal: <br>
                        <input type="text" name="cp" id="cp"> <br>
+                    </div>
+
+                    <div class="ddd">
                        DDD: <br>
                        <input type="number" name="ddd" id="ddd"> <br>
+                    </div>
+
+                    <div class="tl">
                        Telefone: <br>
                        <input type="text" name="tel" id="tel"> <br>
+                    </div>
+
+                    <div class="ra">
                        Ramal: <br>
                        <input type="text" name="ra" id="ra"> <br>
+                    </div>
+
+                    <div class="fax">
                        Fax: <br>
                        <input type="text" name="fax" id="fax"> <br>
+                    </div>
                        E-mail: <br>
                        <input type="email" name="e" id="e"> <br>
+
+                       <div class="hi">
                        Homepage Institucional: <br>
                        <input type="text" name="ht" id="ht"> <br>
+                    </div>
                  </fieldset>
+
+
                  <fieldset>
                     <legend><font color="blue" size="4">Endereço Residêncial</font></legend>
                      Logradouro: <br>
@@ -160,8 +220,13 @@
                             <option value="Beco">Beco</option>
                             <option value="Passagem">Passagem</option>
                         </select> <br>
+
+                        <div class="er">
                         Endereço: <br>
                         <input type="text" name="en" id="en"> <br>
+                    </div>
+
+                    <div class="pr">
                          País: <br>
                        <select name="país" id="país">
                         <option value="Brasil">Brasil</option>
@@ -172,6 +237,9 @@
                         <option value="Canada">Canadá</option>
                         <option value="Colômbia">Colômbia</option>
                        </select> <br>
+                    </div>
+
+                    <div class="ufr">
                          UF: <br>
                        <select name="uf" id="uf">
                         <option value="rio de janeiro">Rio de Janeiro</option>
@@ -182,25 +250,51 @@
                         <option value="Minas gerais">Minas Gerais</option>
                         <option value="Brasilia">Brasília</option>
                        </select> <br>
+                    </div>
+
+                    <div class="cer">
                        CEP: <br>
                        <input type="text" name="cep" id="cep"> <br>
+                    </div>
+
+                    <div class="cir">
                        Cidade: <br>
                        <input type="text" name="cid" id="cid"> <br>
+                    </div>
+
+                    <div class="bar">
                        Bairro: <br>
                        <input type="text" name="ba" id="ba"> <br>
+                    </div>
+
+                    <div class="cpre">
                        Caixa Postal: <br>
                        <input type="text" name="cp" id="cp"> <br>
+                    </div>
+
+                    <DIV class="dre">
                        DDD: <br>
                        <input type="number" name="ddd" id="ddd"> <br>
+                    </DIV>
                        Telefone: <br>
                        <input type="text" name="tel" id="tel"> <br>
+
+                       <div class="faxre">
                        Fax: <br>
                        <input type="text" name="fax" id="fax"> <br>
+                    </div>
+
+                    <div class="ere">
                        E-mail: <br>
                        <input type="email" name="e" id="e"> <br>
+                    </div>
+
+                    <div class="hire">
                        Homepage Institucional: <br>
                        <input type="text" name="ht" id="ht"> <br>
+                    </div>
                      </fieldset>
+
                      <fieldset>
                        <legend><font color="blue" size="4">Endereço Preferencial Para Corres</font></legend>
                        <input type="radio" name="r" id="r"> Residêncial
@@ -226,29 +320,66 @@
                         <legend><font color="blue" size="4">Instituição/Curso</font></legend>
                         Instituição: <br>
                         <input type="text" name="ins" id="ins"> <br>
+
+                        <div class="ncf">
                         Nome do Curso: <br>
                         <input type="text" name="nc" id="nc"> <br>
+                    </div>
+
+                    <div class="sc">
                         Status do Curso: <br>
                         <input type="radio" name="ea" id="ea"> em andamento 
                         <input type="radio" name="cko" id="cok"> com título obtido <br>
+                    </div>
+
+                    <div class="pic">
                         Período: <br>
                         início: <input type="date" name="i" id="i"> <br>
+                    </div>
+                    <div class="comc">
                         conclusão: <input type="date" name="c" id="c"> <br>
-                        Título da Monografia: <input type="text" name="" id=""> <br>
-                        Título Disseratação: <input type="text" name="" id=""> <br>
-                        Título Tese: <input type="text" name="" id=""> <br>
+                    </div>
+                    
+
+                    <div class="tm">
+                        Título da Monografia: <br>
+                        <input type="text" name="" id=""> <br>
+                    </div>
+
+                    <div class="td">
+                        Título Disserataçã: <br>
+                        <input type="text" name="" id=""> <br>
+                    </div>
+
+                    <div class="tte">
+                        Título Tese: <br>
+                         <input type="text" name="" id=""> <br>
+                        </div>
+
+                        <div class="ncore">
                         Nome Completo do Orientador: <br>
                         <input type="text" name="" id=""> <br>
+                        </div>
+
+                        <div class="bolsa">
                         Bolsa: <br>
                         <input type="radio" name="sim" id="sim"> sim 
                         <input type="radio" name="nao" id="nao"> não <br>
+                        </div>
+
+                        <div class="efre">
                         Entidade Financeira: <br>
                         <input type="text" name="" id=""> <br>
+                        </div>
                     </fieldset>
+
+
                     <fieldset>
                         <legend><font color="blue" size="4">Atuação Profissional</font></legend>
                         Instituição de Trabalho: <br>
                         <input type="text" name="" id=""> <br>
+
+                        <div class="aeni">
                         Atividade(s) Exercida(s) na Instituição: <br>
                         <select name="ae" id="ae">
                             <option value="Conselhos,comissões e consultorio">Conselhos,comissões e consultorio</option>
@@ -261,22 +392,35 @@
                             <option value="Treinamentos ministrados">Treinamentos ministrados</option>
                             <option value="Outras atividades técnico-científicas">Outras atividades técnico-científicas</option>
                         </select> <br>
+                        </div>
+
+                        <div class="vip">
                         Vínculo Institucional:
-                        Período:
+                        Período: <br>
                         <input type="radio" name="a" id="a"> Anterior
                         <input type="radio" name="a" id="a"> Atual <br>
+                        </div>
+                        
+                        <div class="if">
                         Início: <br>
                         <input type="date" name="s" id="s"> <br>
                         Fim:  <br>
                         <input type="date" name="" id=""> <br>
+                        </div>
+                        
+                        <div class="tdv">
                         Tipo de Vínculo: <br>
                         <select name="s" id="s">
                             <option value="Servidor Público">Servidor Público</option>
                             <option value="Celetista">Celetista</option>
                             <option value="Outro">Outro</option>
                         </select> <br>
+                        </div>
+
+                        <div class="chs">
                         Carga Horaria Semanal:
                         <input type="text" name="" id="">
+                        </div>
                     </fieldset>
                 </fieldset>
                
