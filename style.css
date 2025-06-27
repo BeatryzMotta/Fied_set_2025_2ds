@@ -1,0 +1,12 @@
+.sexo{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 300px;
+}
+.pais{
+    position: absolute;
+    left: 15%;
+    top: 200px;
+}
